@@ -4,21 +4,187 @@
   box-sizing: border-box;
 }
 
-@@font-face {
+@font-face {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
   src: url(@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700') format('woff'));
 }
+/*****navigation*****/
 
- #Home {
+body{
+  margin: 0;
+}
+
+.profile-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #F5005B;
+  width: 102px;
+  height: 123px;
+  margin: 0;
+  padding: 5px 10px 15px 5px;
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+li a{
+  font-family: 'PT Sans';
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.Home {
   background-color: #00A5BF;
+  padding: 13px;
 }
 
-#Calendar {
+.Calendar {
   background-color: #00B7D3;
+  padding: 13px;
 }
 
-#Join {
+.Join {
   background-color: #00D5E7;
+  padding: 13px;
+}
+
+/******main******/
+
+h1 {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #0B1942;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: 'PT Sans';
+  font-weight: normal;
+}
+
+h3 {
+  background-color: #0B1942;
+  color: #FFFFFF;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  padding: 5px 15px;
+}
+
+.up-next {
+  background-color: #0B1942;
+  padding: 0 15px;
+}
+
+.rashomon {
+  background-color: #FFFFFF;
+}
+
+.getinvolved {
+  padding: 0 25px;
+}
+
+.getinvolved p {
+  font-family: 'PT Sans';
+  font-size: 14px;
+}
+
+.up-next h2 {
+  padding-top: 15px;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.rashomon {
+  padding: 15px;
+  display: flex;
+  background-color: rgb(226, 226, 226);
+}
+
+.rashomon a {
+  color: #00B7D3;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.rashdate {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 15px;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.rashinfo {
+  margin-left: 20px;
+  margin-top: -20px;
+  font-family: 'PT Sans';
+  width: 180px;
+}
+
+.rashinfo ul {
+  list-style: circle;
+  padding-left: 25px;
+  font-size: 12px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.rashposter {
+  width: 140px;
+  /*width: 38.888889%;*/
+  height: 200px;
+}
+
+/******othermovies*******/
+
+.movies {
+  background-color: rgb(226, 226, 226);
+  margin: 15px 0;
+  padding: 5px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  font-family: 'PT Sans';
+  font-size: 12px;
+}
+
+.movies div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.movies img {
+  width: 140px;
+  background-size: contain;
+}
+
+.movies p {
+  margin: 5px 0 10px;
+}
+
+.movies a {
+  margin: 5px 0;
+  color: #00B7D3;
+}
+
+/*****bottomnav*****/
+
+.copyright {
+  background-color: rgb(129, 223, 231);
+  color: #FFFFFF;
+  font-family: 'PT Sans';
+  height: 70px;
+  padding-top: 25px;
 }
