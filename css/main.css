@@ -193,6 +193,7 @@ h4 {
 /*****tablet/medium size*****/
 
 @media (min-width: 545px) {
+  /******nav*******/
   nav {
     display: flex;
     background-color: rgb(129, 223, 231);
@@ -209,11 +210,36 @@ h4 {
   .Join {
     padding: 4em 3em;
   }
-  .getinvolved div{
+  /********main********/
+  .geth2{
     display: flex;
   }
-  .getinvolved h3 {
-    width: 30%;
+  .takenotes{
+    margin: 0 25px;
+  }
+  /*******up next********/
+  .rashdate {
+    width: 50vw;
+  }
+  .copyright {
+    padding: 4em 3em;
+    text-align: right;
+  }
+  footer {
+    background-color: #0B1942;
+  }
+}
+
+/*******desktopsize******/
+
+@media (min-width: 769px){
+  .up-next {
+    display: flex;
+    align-items: flex-start;
+  }
+  .rashomon {
+    margin-top: 15px;
+    margin-right: 20px;
   }
 
 }
