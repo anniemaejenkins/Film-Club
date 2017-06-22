@@ -23,12 +23,14 @@
       </nav>
     </header>
 
-    <h1 class="joinclub">Join Film Club</h1>
+    <h1 class="joinClub">Join Film Club</h1>
 
     <form class="profile_pic" action="index.html" method="post">
-      <label for="">profile picture</label>
-      <br>
-      <input type="file" name="" value="">
+      <div class="picSubmit">
+        <label for="">profile picture</label>
+        <input class="chooseFile" type="file" name="" value="">
+      </div>
+
       <div class="filePic">
       </div>
     </form>
@@ -36,14 +38,83 @@
     <form class="info_input" action="index.html" method="post">
       <label for="name">name</label>
       <input type="text" name="name" value="">
+
+      <label for="email">email address</label>
+      <input type="email" name="email" value="">
+
+      <label for="password">password</label>
+      <input type="password" name="password" value="">
+
+      <label for="confirm_password">confirm password</label>
+      <input type="password" name="" value="">
     </form>
 
+    <form class="genreSelect" action="index.html" method="post">
+      <p class="genre">Which genres are you interested in?</p>
 
+      <div>
+        <input type="checkbox" name="action" value="">
+        <label for="action">action</label>
+      </div>
 
+      <div>
+        <input type="checkbox" name="adventure" value="">
+        <label for="adventure">adventure</label>
+      </div>
 
+      <div>
+        <input type="checkbox" name="comedy" value="">
+        <label for="comedy">comedy</label>
+      </div>
 
+      <div>
+        <input type="checkbox" name="drama" value="">
+        <label for="drama">drama</label>
+      </div>
 
+      <div>
+        <input type="checkbox" name="fantasy" value="">
+        <label for="fantasy">fantasy</label>
+      </div>
 
+      <div>
+        <input type="checkbox" name="historical" value="">
+        <label for="historical">historical</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="horror" value="">
+        <label for="horror">horror</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="mystery" value="">
+        <label for="mystery">mystery</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="romance" value="">
+        <label for="romance">romance</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="science_fiction" value="">
+        <label for="science_fiction">science fiction</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="western" value="">
+        <label for="western">western</label>
+      </div>
+
+    </form>
+
+    <form class="addition" action="index.html" method="post">
+      <label for="input">Additional input</label>
+      <textarea name="input" rows="8" cols="80"></textarea>
+    </form>
+
+    <button type="button" name="button">Join Film Club</button>
 
     <footer>
       <nav>

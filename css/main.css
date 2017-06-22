@@ -235,6 +235,61 @@ td:active {
 
 }
 
+/*********join page***************/
+
+.joinClub{
+  margin-left: 20px;
+}
+
+.chooseFile{
+  margin-top: 5px;
+}
+
+.picSubmit{
+  margin: 0 20px 20px;
+  display: flex;
+  flex-flow: column;
+}
+
+.filePic{
+  background-image: url('../images/profile-placeholder.png');
+  margin: 0 auto;
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.info_input{
+  margin: 20px 20px 0 20px;
+  font-family: 'PT Sans';
+  font-size: 12px;
+}
+
+.info_input input{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.genreSelect{
+  font-family: 'PT Sans';
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.genreSelect div{
+  margin-top: 10px;
+}
+
+.addition{
+  margin: 20px;
+}
+
+.addition textarea{
+  width: 90vw;
+}
+
 
 /*****tablet/medium size*****/
 
@@ -298,6 +353,6 @@ td:active {
 
   /*****calendar about desktop*****/
 
-  
+
 
 }
