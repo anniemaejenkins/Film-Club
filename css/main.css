@@ -191,6 +191,50 @@ h4 {
 }
 
 /*******calendarpage**************/
+.junecal {
+  background-color: #0B1942;
+  padding: 20px 0 35px 0;
+}
+
+.meetcal{
+  margin-left: 20px;
+}
+
+.month{
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+table {
+width: 100%;
+background-color: #0B1942;
+border-collapse: collapse;
+}
+
+tr{
+  background-color: #FFFFFF;
+}
+
+td{
+  border: 2px solid #0B1942;
+  width: 50px;
+  height: 50px;
+  vertical-align: top;
+  padding: 0;
+}
+
+span{
+  background-color: #0B1942;
+  color: #FFFFFF;
+  padding: 5px 5px 10px 7px;
+  font-size: 12px;
+}
+
+td:active {
+  background-color: #F5005B;
+
+}
+
 
 /*****tablet/medium size*****/
 
@@ -230,6 +274,14 @@ h4 {
   footer {
     background-color: #0B1942;
   }
+/****calendar*******/
+
+  td{
+    width: 95px;
+    height: 95px;
+  }
+
+
 }
 
 /*******desktopsize******/
@@ -243,5 +295,9 @@ h4 {
     margin-top: 15px;
     margin-right: 20px;
   }
+
+  /*****calendar about desktop*****/
+
+  
 
 }
