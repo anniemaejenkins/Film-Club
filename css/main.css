@@ -319,6 +319,7 @@ td:active {
     margin: 0 25px;
   }
   /*******up next********/
+  /**ask how to position text**/
   .rashdate {
     width: 50vw;
   }
@@ -336,6 +337,37 @@ td:active {
     height: 95px;
   }
 
+/**********joinpageTabletsize*******/
+
+.topContent{
+  display: flex;
+}
+
+/**ASK ABOUT POSITIONING**/
+.profile_pic{
+  display: inline-block;
+}
+
+.filePic{
+  margin: 0;
+  width: 290px;
+  height: 290px;
+}
+
+.info_input{
+  width: 50%
+}
+
+.info_input input{
+  height: 30px;
+}
+
+textarea{
+  height: 50px;
+  /***can't figure out width issue***/
+}
+
+/***issue with flexboxing genres**/
 
 }
 
